@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.app-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.url-form {
+  display: flex;
+  gap: 10px;
+}
+
+.url-form input {
+  flex: 1;
+  padding: 10px;
+}
+
+.url-form button {
+  padding: 10px 20px;
+}
+
+.url-result {
+  margin-top: 20px;
+}
+
+.url-result .error {
+  color: red;
+}
